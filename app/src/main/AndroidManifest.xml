@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cillin.lewis" >
 
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,8 +16,38 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Map"
+            android:label="app_map" >
+        </activity>
+
+
+        <activity
+            android:name=".RecentStops"
+            android:label="app_stops" >
+        </activity>
+
+        <activity
+            android:name=".PopularStops"
+            android:label="app_stops2" >
+        </activity>
+
+        <activity
+            android:name=".UnpopularStops"
+            android:label="app_stops2" >
         </activity>
     </application>
 

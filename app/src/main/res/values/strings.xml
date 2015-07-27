@@ -3,4 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="map">Locations</string>
+    <string name="lewislocation">Lewis is in: </string>
+    <string name="text"> %s </string>
 </resources>
