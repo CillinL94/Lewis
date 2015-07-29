@@ -94,5 +94,33 @@ public class MainMenu extends Activity
                 startActivity(i);
             }
         });
+
+        Button popularhour = (Button)findViewById(R.id.pophour);
+        popularhour.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                //This button is linked to the location page
+                Intent i = new Intent(MainMenu.this, MostPopularHour.class);
+
+                //Activating the intent
+                startActivity(i);
+            }
+        });
+
+        Button unpopularhour = (Button)findViewById(R.id.unpophour);
+        unpopularhour.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                //This button is linked to the location page
+                Intent i = new Intent(MainMenu.this, LeastPopularHour.class);
+
+                //Activating the intent
+                startActivity(i);
+            }
+        });
     }
 }

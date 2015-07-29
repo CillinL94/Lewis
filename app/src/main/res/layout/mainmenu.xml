@@ -41,4 +41,18 @@
         android:id="@+id/unpopularstops"
         android:layout_gravity="center_horizontal" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Hour"
+        android:id="@+id/pophour"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unpopular Hour"
+        android:id="@+id/unpophour"
+        android:layout_gravity="center_horizontal" />
+
 </LinearLayout>

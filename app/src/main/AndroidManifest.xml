@@ -49,6 +49,16 @@
             android:name=".UnpopularStops"
             android:label="app_stops2" >
         </activity>
+
+        <activity
+            android:name=".MostPopularHour"
+            android:label="app_stops2" >
+        </activity>
+
+        <activity
+            android:name=".LeastPopularHour"
+            android:label="app_stops2" >
+        </activity>
     </application>
 
 </manifest>
